@@ -1,0 +1,1 @@
+import{L as i,C as a}from"./index.022eda07.js";const t=a.isNativePlatform();var n=async()=>{!t||await i.createChannel({id:"expirationappnotifications",name:"Expiration App Notifications",description:"Display notifications about expiring items.",importance:3,visibility:1,lights:!1,lightColor:!1,vibration:!1})};export{n as default};
